@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(rgb(250, 0, 0),rgb(255, 255, 255));
+}
+
+.tituloprincipal{
+    display: flex;
+    justify-content: center;
+    border: 10px black solid;
+    height: 70px;
+}
+
+.titulo{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.contenedor_img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 0.1px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.imagen{
+    height: 200px;
+    border: 10px solid black;
+    display: flex;
+}
+
+img{
+    height: 100%;
+}
